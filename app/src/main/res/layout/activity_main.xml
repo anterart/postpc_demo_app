@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    >
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="10" />
+
+    <Button
+        android:id="@+id/goFish"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:text="go fish!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="10" />
+
+    <Button
+        android:id="@+id/number"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:text="tap on me!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="10" />
+
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="10" />
+</LinearLayout>
